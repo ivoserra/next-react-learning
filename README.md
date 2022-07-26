@@ -5,7 +5,7 @@
 Im learning Next.js with React. I created this repository for my learning process.
 
 
-[more info about the workshop] (https://www.udemy.com/course/nextjs-react-the-complete-guide/)
+[more info about the workshop](https://www.udemy.com/course/nextjs-react-the-complete-guide/)
 
 Ivo Serra . July 2022
 
