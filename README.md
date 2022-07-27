@@ -6,6 +6,8 @@ Im learning Next.js with React. I created this repository for my learning proces
 
 This is my diary and a brief description of each step. 
 
+for babel problem: https://namespaceit.com/blog/parsing-error-cannot-find-module-next-babel 
+
 
 [more info about the workshop](https://www.udemy.com/course/nextjs-react-the-complete-guide/)
 
