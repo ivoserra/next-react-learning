@@ -1,3 +1,13 @@
+# First project : Implementing next_1_core with react components
+
+<br> 
+
+this project is not about styling, its just understanding how NEXT.JS works with react. Most of the react logic is followed by live coding with the teacher. There is a few personal adjustments to react logic that I personally prefer and annotations.
+
+Ivo serra. 28th July 2022.
+
+<br>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
