@@ -6,23 +6,27 @@ Im learning Next.js with React. I created this repository for my learning proces
 
 This is my diary and a brief description of each step. 
 
-for babel problem: https://namespaceit.com/blog/parsing-error-cannot-find-module-next-babel 
+for Babel error reference: https://namespaceit.com/blog/parsing-error-cannot-find-module-next-babel 
 
 
 [more info about the workshop](https://www.udemy.com/course/nextjs-react-the-complete-guide/)
 
 #### next_1_core
 This is where I learn the fundamentals of Next.JS and dynamic router.
-Learned  useRouter, router.query, [...slug].js , Links
+topics: useRouter, router.query, [...slug] and Link.
 
-#### project_one : implementing  next_1 with react
+#### July 27th 2022.
+
+#### project_one : implementing  next_1_core with React components
 A live coding with the teacher combining Next.js and React components.
 This project is not about styling. Some personal adjustments to the code and logic in props for personal reasons. 
 Some annotations can be found.
 
-Used dummy data, Fragment, Filtered component *** , classes.module.css.
+topics: dummy data, Fragment, Filtered component *** , classes.module.css.
 
-July 28th 2022.
+[ ref to the parsing error](https://namespaceit.com/blog/parsing-error-cannot-find-module-next-babel)
+
+#### July 28th 2022.
 
 
 <br>
