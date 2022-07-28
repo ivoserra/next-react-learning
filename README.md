@@ -11,15 +11,15 @@ This is my diary and a brief description of each step.
 
 ------ 
 
-#### next_1_core
+### next_1_core
 This is where I learn the fundamentals of Next.JS and dynamic router.
 topics: useRouter, router.query, [...slug] and Link.
 
-#### July 27th 2022.
+#### July 26th 2022.
 
 ------
 
-#### project_one : implementing  next_1_core with React components > section 4
+### project_one : implementing  next_1_core with React components > section 4
 A live coding with the teacher combining Next.js and React components.
 This project is not about styling. Some personal adjustments to the code and logic in props for personal reasons. 
 Some annotations can be found.
@@ -28,11 +28,43 @@ topics: dummy data, Fragment, Filtered component *** , classes.module.css.
 
 [ ref to the parsing error](https://namespaceit.com/blog/parsing-error-cannot-find-module-next-babel)
 
-#### July 28th 2022.
+#### July 27th 2022.
+
+-------
+
+### Page-Pre-rendering & data fetching
+
+Static vs Server-side Page generation
+how to fetch data with next.
 
 
+##### Static Generation
+Pre-generate a page (with data prepared on the server-side) during build time.
+Pages are prepared ahead to time and can be cached by the server / CDN serving the app.
+
+```
+export async function getStaticProps(context){ ... }
+```
+
+###### Incremental static Generation
+Pre-generate Page -> Re-generate it on every request, at most every X seconds.
+
+Either : Serve 'old' page if re-generation is not needed yet !
+OR: Generate, store and serve 'new' page otherwise.
+
+#### Pre-generated Paths
+
+```
+export async function getStaticPaths() {...}
+
+```
+
+### July 28th 2022
+
+-------
 <br>
-Ivo Serra . July 2022
+
+## Ivo Serra . July 2022
 
 
 <br>
