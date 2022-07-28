@@ -32,7 +32,7 @@ topics: dummy data, Fragment, Filtered component *** , classes.module.css.
 
 -------
 
-### Page-Pre-rendering & data fetching
+### Pre-rendering & data fetching
 
 Static vs Server-side Page generation
 how to fetch data with next.
@@ -59,7 +59,11 @@ export async function getStaticPaths() {...}
 
 ```
 
-### July 28th 2022
+
+#### Fallbacks
+
+
+#### July 28th 2022
 
 -------
 <br>
