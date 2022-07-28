@@ -1,4 +1,4 @@
-## Learning Nextjs with React (inl 2 paths)
+## Learning Nextjs with React
 #### udemy workshop  with Maximilian Schwarzmüller.
 
 <br>
