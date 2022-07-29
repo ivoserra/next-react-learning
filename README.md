@@ -23,9 +23,9 @@ This is where I learn the fundamentals of Next.JS and dynamic router.
 
 ------
 
-## next_2_project
+## next_2_project_one
 
-#### Branch project_one : implementing  next_1_core with React components.
+#### Implementing  next dynamic pages with React components.
 A live coding with the teacher combining Next.js and React components.
 This project is not about styling. Some personal adjustments to the code and logic in props for personal reasons. 
 Some annotations can be found.
@@ -38,10 +38,6 @@ Some annotations can be found.
 [ ref to the parsing error](https://namespaceit.com/blog/parsing-error-cannot-find-module-next-babel)
 
 ###### July 26th 2022
-
-#### Branch project_two: same project_one but implementing pre-rendering & data fetching
-
-###### July 29th 2022.
 
 -------
 
@@ -65,7 +61,11 @@ how to fetch data with next.
 ###### July 29th 2022
 
 -------
+## next_4_ Project_two
 
+#### Implementing pre-rendering & data fetching
+
+###### July 29th 2022.
 
 
 -------
