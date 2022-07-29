@@ -1,10 +1,8 @@
 # First project : 
 
-Check branches :
 
-##### Branch project_one : Implementing next_1_core with react components
+## project_one : Implementing next_1_core with react components
 
-##### Branch project_two: Page Pre-rendering & DATA Fetching
 
 <br> 
 
