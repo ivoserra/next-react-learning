@@ -70,10 +70,6 @@ export default function LastSalesPage(props){
 
     // console.log(data)
 
-
-
-
-
     return(
 
         <ul>
