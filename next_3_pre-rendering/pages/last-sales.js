@@ -12,7 +12,6 @@ import { useEffect, useState } from "react"
 import useSWR from "swr"
 
 // firebase api only returns objects and not an array
-
 export default function LastSalesPage(props){
 
     const [ sales, setSales ] = useState(props.sales);
