@@ -59,16 +59,38 @@ export async function getStaticPaths() {...}
 
 ```
 
+#### Incremental static Generation
+Pre-generate Page -> Re-generate it on every request, at most every X seconds.
 
-#### Fallbacks
+
+###### Get Server-SideProps, for server-side rendering (SSR)
+2 ways of static generation and server-side generation, for dynamic pre-generated pages we do need both getStaticProps and getStaticPaths...
+
+``` 
+export async function getServerSideProps(){...}
+
+```
 
 
-#### July 28th 2022
+###### Client Side Data Fetching
+Firebase API
+useSWR hook
+
+
+```
+useSWR(<request-url>, (url) => fetch(url).then(res => res.json()))
+
+```
+
+
+###### Combining Server side Pre-fetching with client-side data fetching.
+
+#### July 29th 2022
 
 -------
 <br>
 
-## Ivo Serra . July 2022
+## Ivo Serra . from 26th July-> .... 2022
 
 
 <br>

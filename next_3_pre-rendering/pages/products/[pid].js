@@ -38,9 +38,10 @@ export async function getStaticProps(context){
 
   const product = data.products.find((product) => product.id === productId);
   
-  if(!product){
-    return { notFound: true }
-  }
+  // only if fallback is set to true
+  // if(!product){
+  //   return { notFound: true }
+  // }
 
   return {
     props: {
@@ -49,7 +50,7 @@ export async function getStaticProps(context){
   };
 }
 
-export async function getStaticPaths(context) {
+export async function getStaticPaths() {
 
  const data = await getData();
 
@@ -58,7 +59,7 @@ export async function getStaticPaths(context) {
 
   return {
     paths: pathsWithParams,
-    fallback: true,
+    fallback: false,
   };
 }
 
